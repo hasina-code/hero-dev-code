@@ -32,6 +32,9 @@ font-size: 900;
 /*min style*/
 header{
   background-color:#FFF8F3 ;
+  background: url("../images/developer.png"),url("../images/header_bg.png"),#FFF8F3;
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
   padding-top: 50px;
 }
 nav{
@@ -56,3 +59,34 @@ nav{
   color: #474747;
   text-decoration: none;
  }
+
+ #banner{
+  /*border: 1px solid red;*/
+  margin: 47px 38px 0 230px;
+  display: flex;
+  justify-content: space-between;
+ }
+
+ #banner .banner-conten{
+  max-width: 585px;
+ }
+
+ #banner .banner-conten h2{
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+ }
+
+ #banner .banner-conten h1{
+  font-size: 85px;
+  font-weight: bold;
+  color: #181818;
+  margin bottom: 20px;
+ }
+
+#banner .banner-conten p{
+  font-size: 18px;
+  color: #757575;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
